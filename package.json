@@ -1,0 +1,26 @@
+{
+  "name": "day23hw-jquery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browserify": "^13.0.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.2.0",
+    "surge": "^0.17.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claygrizzy/Day23Hw-jQuery.git"
+  },
+  "author": "Clay Grizzy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/claygrizzy/Day23Hw-jQuery/issues"
+  },
+  "homepage": "https://github.com/claygrizzy/Day23Hw-jQuery#readme"
+}

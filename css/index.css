@@ -1,0 +1,62 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+body {
+  background-color: orange;
+  color: #0000ff;
+  font: "comic sans", sans-serif; }
+  body #upperhalf {
+    margin: 1%;
+    display: block;
+    background-color: purple;
+    color: #66ffff;
+    border: 3px solid #6600cc;
+    /*
+    #carsearch{
+      position: relative;
+      width: 50%;
+      word-wrap: break-word;
+      height: 4em;
+      border: 2px solid #66ffff;
+      margin-right: 5%;
+    }
+    */ }
+    body #upperhalf h1 {
+      padding: 1%;
+      text-align: center;
+      font-size: 500; }
+  body #dropboxes {
+    margin: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+    display: flex; }
+    body #dropboxes #boughtBox {
+      color: #a3f50b;
+      width: 50%;
+      border: 2px solid #0afa1b;
+      margin-right: 5%;
+      float: left; }
+    body #dropboxes #removeBox {
+      color: #00cae6;
+      background-color: red;
+      width: 50%;
+      border: 2px solid #fa180a;
+      margin-left: 5%;
+      float: right; }
+  body #searchResult {
+    margin: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
+    display: inline-flex;
+    text-align: center; }
+    body #searchResult .hidden {
+      display: none; }
+    body #searchResult div {
+      border: 2px solid #6600cc;
+      justify-content: space-between; }
+
+/*# sourceMappingURL=index.css.map */
