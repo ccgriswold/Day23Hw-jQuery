@@ -5,7 +5,7 @@ module.exports =[{
   doors: '4',
 }, {
   id:1,
-  name: 'Ford Mustange Boss302',
+  name: 'Ford Mustang Boss302',
   type: 'Coupe',
   doors: '2',
 },  {

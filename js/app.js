@@ -20,6 +20,22 @@ window.addEventListener('load', function() {
     var parent = document.getElementById('searchResult');
     parent.appendChild(create);
   }
+
+  $(function(){
+    $('#searchResult div').draggable({
+      appendTo: "body",
+      helper: "clone"
+    });
+    $("#boughtBox ol").droppable({
+      activeClass: "ui-state-default",
+      hoverClass: "ui-state-hover",
+      drop: function(event, ui){
+        $( this ).find(".boughtBox").remove();
+        $('<ol></ol>').text(ui.draggable.text()).appendTo(this);
+      }
+      });
+
+  });
 });
 
 /* -------- NOT NEEDED IN THIS ASSIGNMENT ----------------------
